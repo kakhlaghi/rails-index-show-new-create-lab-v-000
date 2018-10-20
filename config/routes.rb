@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  resources :coupon, only: [:index, :show, :new, :create]
+  resources :coupons, only: [:index, :show, :new, :create]
   
   
   # The priority is based upon order of creation: first created -> highest priority.
