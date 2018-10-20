@@ -13,7 +13,7 @@ class CouponsController < ApplicationController
   
   def create
     @coupon = Coupon.new
-    redirect_to coupon_path(@coupon)
+    redirect_to coupons_path(@coupon)
   end
   
 end
